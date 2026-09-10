@@ -7,19 +7,13 @@
   <title>Recipe Assistant Privacy Policy | Vitali Automation</title>
 
   <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
+    * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       font-family: Arial, Helvetica, sans-serif;
       background: #0d1117;
       color: #e6edf3;
       line-height: 1.7;
     }
-
     header {
       background: #161b22;
       border-bottom: 1px solid #30363d;
@@ -29,93 +23,51 @@
       justify-content: space-between;
       gap: 20px;
     }
-
-    .brand {
-      display: flex;
-      align-items: center;
-      gap: 14px;
-    }
-
+    .brand { display: flex; align-items: center; gap: 14px; }
     .brand img {
       width: 58px;
       height: 58px;
       object-fit: contain;
       border-radius: 8px;
+      background: #fff;
     }
-
     .brand a {
-      color: #ffffff;
+      color: #fff;
       text-decoration: none;
       font-size: 1.45rem;
       font-weight: bold;
     }
-
     nav a {
       color: #c9d1d9;
       text-decoration: none;
       margin-left: 22px;
       font-weight: 600;
     }
-
-    nav a:hover {
-      color: #58a6ff;
-    }
-
+    nav a:hover, main a:hover { color: #79c0ff; }
     .hero {
       text-align: center;
       padding: 65px 20px 55px;
-      background:
-        radial-gradient(circle at top, #18283b 0%, #0d1117 60%);
+      background: radial-gradient(circle at top, #18283b 0%, #0d1117 60%);
     }
-
-    .hero h1 {
-      font-size: 2.7rem;
-      margin-bottom: 12px;
-    }
-
-    .hero p {
-      color: #aab4bf;
-      font-size: 1.05rem;
-    }
-
-    .container {
-      width: min(900px, 90%);
-      margin: auto;
-    }
-
-    main {
-      padding: 55px 0 75px;
-    }
-
-    section {
-      margin-bottom: 42px;
-    }
-
+    .hero h1 { font-size: 2.7rem; margin-bottom: 12px; }
+    .hero p { color: #aab4bf; font-size: 1.05rem; }
+    .container { width: min(920px, 90%); margin: auto; }
+    main { padding: 55px 0 75px; }
+    section { margin-bottom: 42px; }
     h2 {
       font-size: 1.55rem;
       margin-bottom: 13px;
-      color: #ffffff;
+      color: #fff;
     }
-
-    p {
-      color: #b1bac4;
-      margin-bottom: 14px;
+    h3 {
+      font-size: 1.08rem;
+      margin: 18px 0 8px;
+      color: #f0f6fc;
     }
-
-    ul {
-      padding-left: 24px;
-      color: #b1bac4;
-      margin-bottom: 15px;
-    }
-
-    li {
-      margin-bottom: 8px;
-    }
-
-    a {
-      color: #58a6ff;
-    }
-
+    p { color: #b1bac4; margin-bottom: 14px; }
+    ul { padding-left: 24px; color: #b1bac4; margin-bottom: 15px; }
+    li { margin-bottom: 8px; }
+    main a { color: #58a6ff; }
     .summary {
       background: #161b22;
       border: 1px solid #30363d;
@@ -123,11 +75,15 @@
       padding: 24px;
       margin-bottom: 42px;
     }
-
-    .summary strong {
-      color: #ffffff;
+    .summary strong { color: #fff; }
+    .important {
+      border-left: 4px solid #58a6ff;
+      padding: 12px 16px;
+      background: #11161d;
+      border-radius: 0 8px 8px 0;
+      margin: 16px 0;
     }
-
+    .small { font-size: 0.95rem; color: #8b949e; }
     footer {
       border-top: 1px solid #30363d;
       text-align: center;
@@ -135,19 +91,10 @@
       color: #8b949e;
       font-size: 0.9rem;
     }
-
     @media (max-width: 700px) {
-      header {
-        flex-direction: column;
-      }
-
-      nav a {
-        margin: 0 8px;
-      }
-
-      .hero h1 {
-        font-size: 2rem;
-      }
+      header { flex-direction: column; }
+      nav a { margin: 0 8px; }
+      .hero h1 { font-size: 2rem; }
     }
   </style>
 </head>
@@ -159,7 +106,6 @@
     <img src="VitaliAutomation.png" alt="Vitali Automation logo">
     <a href="index.html">Vitali Automation</a>
   </div>
-
   <nav>
     <a href="index.html">Home</a>
     <a href="recipe-assistant.html">Recipe Assistant</a>
@@ -167,12 +113,10 @@
   </nav>
 </header>
 
-
 <div class="hero">
   <h1>Recipe Assistant Privacy Policy</h1>
   <p>Last updated: 10 September 2026</p>
 </div>
-
 
 <main>
   <div class="container">
@@ -181,357 +125,433 @@
       <strong>Privacy summary</strong>
       <p>
         Recipe Assistant is designed to be privacy-friendly and local-first.
-        Vitali Automation does not require a Recipe Assistant account, does not
-        sell personal information, does not display advertising, and does not
-        use users' recipes for advertising purposes.
+        It does not require a Recipe Assistant account, does not contain advertising,
+        does not use advertising trackers, and does not operate a Vitali Automation
+        cloud service for users' personal recipe libraries.
+      </p>
+      <p>
+        Recipes and selected recipe photos are normally stored on the device.
+        Online search and website-import features necessarily communicate with
+        third-party websites and search providers. Photo text recognition uses
+        Google ML Kit on-device: the photo and recognised text are not sent to
+        Google for recognition, although ML Kit sends limited diagnostic and usage
+        metrics to Google as described below.
       </p>
     </div>
 
-
     <section>
-      <h2>1. About this Privacy Policy</h2>
-
+      <h2>1. Who we are</h2>
       <p>
-        This Privacy Policy explains how Recipe Assistant, developed and
-        published by Vitali Automation, accesses, uses, stores and shares
-        information when you use the application.
+        Recipe Assistant is developed and published by <strong>Vitali Automation</strong>.
+        This Privacy Policy explains how the app accesses, uses, stores and transmits
+        information.
       </p>
-
       <p>
-        Developer: Vitali Automation<br>
-        Contact: <a href="mailto:vitaliautomation@gmail.com">
-        vitaliautomation@gmail.com</a>
+        Privacy and support contact:
+        <a href="mailto:vitaliautomation@gmail.com">vitaliautomation@gmail.com</a>
       </p>
     </section>
 
-
     <section>
-      <h2>2. User Accounts</h2>
-
+      <h2>2. Accounts and information we do not require</h2>
       <p>
-        Recipe Assistant does not currently require users to create a
-        Recipe Assistant account or provide a name, email address, password
-        or other profile information in order to use the app.
+        Recipe Assistant does not currently require a Vitali Automation account.
+        Users do not need to provide Vitali Automation with a name, email address,
+        password, telephone number or profile in order to use the app.
+      </p>
+      <p>
+        The app does not intentionally collect precise location, contacts, calendar
+        data, SMS messages, microphone/audio recordings, health data or advertising IDs.
       </p>
     </section>
 
-
     <section>
-      <h2>3. Recipes and App Data</h2>
-
+      <h2>3. Recipes and app data stored on the device</h2>
       <p>
-        Recipes created, imported, edited and saved in Recipe Assistant are
-        primarily stored locally on the user's device.
+        The app stores recipe and configuration data locally in app-private storage.
+        This can include:
       </p>
-
-      <p>
-        This may include:
-      </p>
-
       <ul>
-        <li>recipe names and descriptions;</li>
-        <li>ingredients and quantities;</li>
-        <li>cooking instructions;</li>
-        <li>serving or scaling information;</li>
-        <li>recipe categories and other recipe settings;</li>
-        <li>selected recipe images;</li>
-        <li>app preferences and Free/Pro feature-use information.</li>
+        <li>recipe names, descriptions, ingredients, quantities and cooking steps;</li>
+        <li>serving, scaling, category and favourite information;</li>
+        <li>recipe source URLs and remote image URLs where applicable;</li>
+        <li>locally saved recipe photos;</li>
+        <li>app language, settings and search-provider configuration;</li>
+        <li>Free-plan usage counters; and</li>
+        <li>Google Play Lifetime Pro entitlement/verification information needed by the app.</li>
       </ul>
-
       <p>
-        Vitali Automation does not operate a cloud recipe-storage service for
-        the current version of Recipe Assistant and does not automatically
-        upload a user's personal recipe library to Vitali Automation servers.
+        Vitali Automation does not currently operate a server that automatically
+        receives or stores users' personal recipe libraries.
+      </p>
+    </section>
+
+    <section>
+      <h2>4. Camera, gallery and recipe images</h2>
+      <p>
+        Recipe Assistant lets a user choose an existing image or take a photo for
+        recipe creation and photo-to-recipe import. The current Android app does not
+        request broad photo-library or storage access in its own manifest. It uses
+        Android/system selection or camera flows and receives the image that the user
+        selects or captures.
+      </p>
+      <p>
+        Selected images may be held temporarily while the user reviews or crops them.
+        If the user saves an image as a recipe photo, Recipe Assistant copies it into
+        the app's private storage. Deleting the corresponding local recipe photo from
+        the app removes the app's stored copy where that deletion is supported.
+      </p>
+    </section>
+
+    <section>
+      <h2>5. Photo text recognition (OCR) and Google ML Kit</h2>
+      <p>
+        Recipe Assistant uses Google ML Kit Text Recognition to recognise text in
+        recipe photos and screenshots. The image content and the text produced by
+        ML Kit are processed on the device for text recognition and are not sent to
+        Google servers for recognition.
+      </p>
+      <p>
+        Google states that ML Kit may contact Google services for items such as
+        updates, bug fixes and hardware-accelerator compatibility, and that ML Kit
+        automatically sends limited diagnostics and usage metrics. Depending on the
+        ML Kit feature and platform, those metrics can include device and app
+        information, a per-installation identifier, performance/latency information,
+        API configuration such as image format or resolution, input/output size,
+        feature version, feature events and error codes. Google states that this
+        telemetry is encrypted in transit and is not transferred by ML Kit to other
+        third parties.
+      </p>
+      <p>
+        Vitali Automation does not receive the recipe image, recognised recipe text,
+        or ML Kit diagnostic telemetry on a Vitali Automation server.
+      </p>
+      <p class="small">
+        More information:
+        <a href="https://developers.google.com/ml-kit/terms" target="_blank" rel="noopener noreferrer">Google ML Kit Terms &amp; Privacy</a>
+        and
+        <a href="https://developers.google.com/ml-kit/android-data-disclosure" target="_blank" rel="noopener noreferrer">ML Kit data disclosure guidance</a>.
+      </p>
+    </section>
+
+    <section>
+      <h2>6. AI Assistant</h2>
+      <p>
+        The current Recipe Assistant AI Assistant does not send a user's personal
+        recipe library or recipe photographs to an external generative-AI/LLM service.
+        Recipe interpretation, ranking and cleanup logic is performed by the app.
+      </p>
+      <p>
+        When the user chooses an <strong>online</strong> search function, however,
+        the search text is transmitted to the enabled web search providers so that
+        internet search results can be returned. This network search is described in
+        the next section.
+      </p>
+    </section>
+
+    <section>
+      <h2>7. Online recipe search</h2>
+      <p>
+        Online recipe search is optional and only runs when the user chooses to use
+        that feature. Recipe Assistant may send the user's search text to more than
+        one enabled search provider. The built-in provider list currently includes
+        services such as DuckDuckGo, Bing, Yahoo and Mojeek for automatic searching,
+        with additional providers available for manual/browser use. Users can change
+        enabled providers in the app's Search Provider settings.
+      </p>
+      <p>
+        A search provider can receive the search query and ordinary network-request
+        information such as the sender's IP address, app/browser request headers and
+        language preference. Search providers process this information under their
+        own privacy policies and retention practices.
+      </p>
+      <div class="important">
+        <p>
+          Users should avoid putting unnecessary personal or sensitive information
+          into an online recipe-search query because the query is sent to the enabled
+          third-party search provider(s).
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>8. Automatic candidate checking and website recipe import</h2>
+      <p>
+        To find useful recipe results and reject search pages, articles or other
+        unsuitable results, Recipe Assistant may automatically request candidate
+        recipe web pages after an online search. When the user imports a recipe by
+        URL, the app also requests that URL and analyses the returned page.
+      </p>
+      <p>
+        Those websites can receive normal connection information such as the user's
+        IP address, request headers and language preference. The app may store the
+        recipe source URL locally with the saved recipe.
+      </p>
+      <p>
+        Built-in search providers use HTTPS, and the current Android release target
+        does not opt in to cleartext HTTP traffic. Users who add custom search-provider
+        templates should use HTTPS.
+      </p>
+    </section>
+
+    <section>
+      <h2>9. In-app browser, external websites and cookies</h2>
+      <p>
+        Recipe Assistant includes an in-app web browser for navigating recipe and
+        search websites. Pages in this browser are third-party web content. Those
+        websites may use JavaScript, cookies, local storage and similar web
+        technologies and may collect information according to their own privacy
+        policies.
+      </p>
+      <p>
+        When the user chooses <strong>Import current page</strong>, Recipe Assistant
+        reads the currently displayed page content so it can extract recipe information.
+        Recipe Assistant does not provide third-party websites with access to the
+        user's local Recipe Assistant database.
+      </p>
+    </section>
+
+    <section>
+      <h2>10. Remote recipe images</h2>
+      <p>
+        Recipes imported from websites may include an image URL from the source site.
+        Recipe Assistant normally attempts to save an imported recipe image locally.
+        If a remote image remains linked instead, displaying that image can make a
+        request to the third-party image host, which can receive ordinary connection
+        information such as the user's IP address and request headers.
+      </p>
+    </section>
+
+    <section>
+      <h2>11. Clipboard import, backup and restore</h2>
+      <p>
+        Recipe Assistant can read text from the system clipboard when the user
+        explicitly chooses a paste or restore action. It can also create a text/JSON
+        recipe backup and copy that backup to the system clipboard at the user's request.
+      </p>
+      <p>
+        Clipboard backups contain recipe text and related recipe metadata but do not
+        include the bytes of locally stored recipe photos. Once information is copied
+        to the Android system clipboard, it is no longer held only inside Recipe
+        Assistant's private storage. Clipboard access and visibility are then governed
+        by Android and the user's device environment.
+      </p>
+    </section>
+
+    <section>
+      <h2>12. Android backup and device transfer</h2>
+      <p>
+        Recipe Assistant does not run a Vitali Automation cloud-sync service.
+        Android and device manufacturers may provide operating-system backup, restore
+        or device-to-device migration features for app data depending on the user's
+        Android version, device, account and backup settings. Those platform services
+        are controlled by the operating system/provider rather than by Vitali Automation.
+      </p>
+      <p>
+        Users who do not want platform backup or device transfer should review their
+        Android/device backup settings. Recipe Assistant also provides a user-initiated
+        clipboard backup method for recipe text.
+      </p>
+    </section>
+
+    <section>
+      <h2>13. Google Play Billing and Lifetime Pro</h2>
+      <p>
+        Recipe Assistant may offer a one-time Lifetime Pro purchase through Google Play.
+        Google Play handles the payment transaction. Recipe Assistant does not receive
+        or store the user's full payment-card or bank-account details.
+      </p>
+      <p>
+        The app receives purchase status and verification/entitlement information
+        required to determine whether Lifetime Pro has been purchased or restored.
+        In the current app architecture this entitlement information is stored locally
+        on the device. Google processes Google Play account, transaction and payment
+        information under Google's own terms and privacy policy.
+      </p>
+    </section>
+
+    <section>
+      <h2>14. Advertising, developer analytics and tracking</h2>
+      <p>
+        Recipe Assistant does not contain third-party advertising, does not use an
+        advertising SDK and does not use advertising IDs for targeted advertising.
+      </p>
+      <p>
+        The current app does not include Firebase Analytics, Google Analytics,
+        Firebase Crashlytics, Sentry, Mixpanel, Amplitude or a similar developer-added
+        analytics/crash-reporting service. This does not mean that no technical data
+        ever leaves the device: Google ML Kit sends the limited diagnostic and usage
+        metrics described in section 5, and online features communicate with the
+        third-party services selected or required for those features.
+      </p>
+    </section>
+
+    <section>
+      <h2>15. Permissions and device access</h2>
+      <p>
+        The current Android app declares Internet access and Google Play Billing access.
+        It does not declare permissions for precise/coarse location, contacts,
+        microphone/audio recording, SMS, phone state, advertising ID, or broad
+        photo/storage-library access.
+      </p>
+      <p>
+        Camera and photo selection are initiated only when the user chooses the
+        corresponding feature, using Android/system selection or camera mechanisms.
+      </p>
+    </section>
+
+    <section>
+      <h2>16. Security</h2>
+      <p>
+        Recipe Assistant is designed to minimise unnecessary collection and transmission.
+        Local recipes are stored in the app's private Android storage. Built-in online
+        providers use HTTPS and the Android build does not opt in to cleartext network
+        traffic. Data sent by Google ML Kit is encrypted in transit according to
+        Google's ML Kit disclosure documentation.
+      </p>
+      <p>
+        No internet-connected system can be guaranteed to be completely secure.
+        Users should keep Android and their device security up to date.
+      </p>
+    </section>
+
+    <section>
+      <h2>17. Retention and deletion</h2>
+      <p>
+        Local recipe and app data remains on the device until it is deleted through
+        app functions, Android app-storage controls, device migration/backup handling,
+        or app removal, subject to the behaviour of Android backup and restore services.
+      </p>
+      <p>
+        Because Recipe Assistant currently has no Vitali Automation user account and
+        no Vitali Automation cloud recipe database, Vitali Automation normally has no
+        server-side personal recipe library to delete.
+      </p>
+      <p>
+        Data processed by Google Play, Google ML Kit, search providers, websites or
+        other third-party services is subject to those providers' retention and deletion
+        policies.
+      </p>
+      <p>
+        Privacy or deletion questions can be sent to
+        <a href="mailto:vitaliautomation@gmail.com">vitaliautomation@gmail.com</a>.
+      </p>
+    </section>
+
+    <section>
+      <h2>18. Support emails</h2>
+      <p>
+        If a user voluntarily emails Vitali Automation for support or feedback,
+        Vitali Automation receives the sender's email address and the information
+        included in that message. It is used to respond to the enquiry, diagnose the
+        reported issue and maintain necessary support records. Users should not include
+        unnecessary sensitive information in support messages.
       </p>
     </section>
 
 
     <section>
-      <h2>4. Camera, Photos and Images</h2>
-
+      <h2>19. Legal bases where UK data-protection law applies</h2>
       <p>
-        Recipe Assistant may allow users to take a photo or select an existing
-        image for the purpose of creating or importing a recipe.
+        Where Vitali Automation acts as a controller of personal data under UK
+        data-protection law, it processes only what is necessary for the relevant
+        purpose. Support emails and similar voluntary enquiries are processed on the
+        basis of Vitali Automation's legitimate interests in responding to users,
+        supporting the app and maintaining appropriate records. Information needed
+        to provide or restore a paid Lifetime Pro entitlement is processed where
+        necessary to provide the purchased service, although the payment itself is
+        handled by Google Play.
       </p>
-
       <p>
-        The app accesses only the photo or image selected or captured by the
-        user for this feature. Recipe Assistant does not use camera or photo
-        access for advertising, profiling or background monitoring.
-      </p>
-
-      <p>
-        Image and text recognition used by the current app is designed to be
-        processed locally on the device. Vitali Automation does not operate a
-        server that receives or stores users' recipe photographs or screenshots.
-      </p>
-    </section>
-
-
-    <section>
-      <h2>5. AI Assistance</h2>
-
-      <p>
-        Recipe Assistant includes intelligent features that help users search
-        for, interpret, organise and import recipe information.
-      </p>
-
-      <p>
-        The app's internal recipe-processing and assistance features do not
-        require users to submit personal information to Vitali Automation.
-        Personal recipe libraries are not used by Vitali Automation to train
-        advertising profiles or sold to third parties.
+        Optional online search, website import, camera/photo selection and clipboard
+        features are initiated by the user. Where consent or device permission is
+        required by applicable law or Android, the relevant choice or permission is
+        requested at the point of use. Third-party search providers, websites, Google,
+        GitHub and other independent services determine their own legal bases for the
+        information they process under their own privacy notices.
       </p>
     </section>
 
-
     <section>
-      <h2>6. Online Recipe Search and Website Import</h2>
-
+      <h2>20. International processing</h2>
       <p>
-        Some Recipe Assistant features require internet access. When the user
-        chooses to search for recipes online or import a recipe from a website,
-        the app makes network requests to search providers, websites or other
-        online sources needed to perform that request.
-      </p>
-
-      <p>
-        Information transmitted as part of these requests may include:
-      </p>
-
-      <ul>
-        <li>the recipe search terms entered by the user;</li>
-        <li>the web address (URL) selected for recipe import;</li>
-        <li>standard internet connection information required to communicate
-            with websites, such as the user's IP address and browser/app request
-            information.</li>
-      </ul>
-
-      <p>
-        These third-party websites and search services may process network
-        information according to their own privacy policies and terms.
-        Vitali Automation does not control the privacy practices of external
-        websites.
+        Third-party services used or contacted by optional online features may process
+        connection information, search queries or service telemetry in countries
+        outside the United Kingdom. Those providers are responsible for describing
+        their international-processing arrangements and safeguards in their own
+        privacy notices. Vitali Automation does not operate an overseas cloud server
+        containing users' personal Recipe Assistant libraries in the current app.
       </p>
     </section>
 
-
     <section>
-      <h2>7. Google Play and Lifetime Pro Purchases</h2>
-
+      <h2>21. Data protection rights</h2>
       <p>
-        Recipe Assistant may offer a one-time Lifetime Pro purchase through
-        Google Play.
+        Where UK or other applicable data-protection law gives users rights over
+        personal data processed by Vitali Automation, those rights may include access,
+        correction, deletion, restriction, objection and data portability, depending
+        on the circumstances and legal basis for the processing.
       </p>
-
       <p>
-        Payments are processed by Google Play. Vitali Automation does not
-        receive or store the user's full payment-card or banking details.
+        Most Recipe Assistant content is held only on the user's device and can be
+        edited or deleted directly by the user. For information actually held by
+        Vitali Automation, such as a support email, a privacy request can be sent to
+        <a href="mailto:vitaliautomation@gmail.com">vitaliautomation@gmail.com</a>.
       </p>
-
       <p>
-        Recipe Assistant may receive purchase-status and entitlement
-        information from Google Play that is necessary to confirm whether
-        Lifetime Pro has been purchased and to restore Pro access when
-        appropriate.
-      </p>
-
-      <p>
-        Google's handling of payment and account information is governed by
-        Google's own privacy policy and Google Play terms.
+        UK users also have the right to raise a concern with the
+        <a href="https://ico.org.uk/make-a-complaint/" target="_blank" rel="noopener noreferrer">
+          Information Commissioner's Office (ICO)
+        </a>.
       </p>
     </section>
 
-
     <section>
-      <h2>8. Advertising</h2>
-
+      <h2>22. Children's privacy</h2>
       <p>
-        Recipe Assistant does not contain third-party advertising and does not
-        use advertising SDKs to track users for targeted advertising.
+        Recipe Assistant is a general-purpose recipe application and is not designed
+        to collect personal information from children for advertising, profiling or
+        social-networking purposes. Vitali Automation does not knowingly sell or use
+        children's personal data for advertising.
       </p>
     </section>
 
-
     <section>
-      <h2>9. Analytics and Tracking</h2>
-
+      <h2>23. Vitali Automation website</h2>
       <p>
-        The current version of Recipe Assistant does not intentionally collect
-        personal usage analytics for Vitali Automation and does not use user
-        activity to build advertising profiles.
+        Vitali Automation's website and this Privacy Policy are hosted using GitHub Pages.
+        Vitali Automation does not currently place its own advertising or analytics
+        scripts on these static pages. GitHub may process normal website connection and
+        service information under GitHub's own privacy terms.
       </p>
-
-      <p>
-        Google Play and the Android operating system may provide standard
-        installation, performance, purchase or diagnostic information as part
-        of their normal platform services. Such information is handled
-        according to Google's applicable policies.
+      <p class="small">
+        See <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
+        target="_blank" rel="noopener noreferrer">GitHub's Privacy Statement</a>.
       </p>
     </section>
 
-
     <section>
-      <h2>10. Permissions</h2>
-
+      <h2>24. Changes to this Privacy Policy</h2>
       <p>
-        Recipe Assistant requests only device access that is required for
-        features chosen by the user. Depending on the Android version and
-        features used, this may include:
-      </p>
-
-      <ul>
-        <li>
-          Internet access, for online recipe search, website importing and
-          Google Play services;
-        </li>
-
-        <li>
-          Camera access, when the user chooses to photograph a recipe;
-        </li>
-
-        <li>
-          Access to a user-selected photo or image, when importing a recipe
-          from an existing image.
-        </li>
-      </ul>
-
-      <p>
-        Camera and image access is used only when the user chooses the
-        corresponding feature.
+        This policy may be updated if Recipe Assistant's data practices materially
+        change, for example if a future release introduces a developer-operated cloud
+        service, external AI service, advertising, additional analytics or other
+        processing not described here. The revision date at the top of this page will
+        be updated when the policy changes.
       </p>
     </section>
 
-
     <section>
-      <h2>11. Data Sharing</h2>
-
-      <p>
-        Vitali Automation does not sell users' personal information.
-      </p>
-
-      <p>
-        Information may leave the device only where necessary to provide a
-        feature requested by the user, such as communicating with an external
-        recipe website, search service or Google Play.
-      </p>
-
-      <p>
-        Recipe Assistant does not automatically publish users' personal recipes
-        or make their recipe libraries available to other Recipe Assistant
-        users.
-      </p>
-    </section>
-
-
-    <section>
-      <h2>12. Data Security</h2>
-
-      <p>
-        Vitali Automation designs Recipe Assistant to minimise unnecessary
-        collection and transmission of user information. Where the app
-        communicates with supported internet services, standard secure network
-        connections are used where available.
-      </p>
-
-      <p>
-        Users should also protect their Android device with appropriate device
-        security, as locally stored recipes and app information are protected
-        by the security of the user's device and operating system.
-      </p>
-    </section>
-
-
-    <section>
-      <h2>13. Data Retention and Deletion</h2>
-
-      <p>
-        Locally stored recipes and associated app data remain on the user's
-        device until they are deleted by the user, removed through an app
-        feature, cleared through Android app-storage settings, or removed when
-        the app is uninstalled, subject to Android backup or restore behaviour.
-      </p>
-
-      <p>
-        Because Recipe Assistant currently does not require a Vitali Automation
-        user account or maintain a developer-operated cloud recipe library,
-        there is normally no separate Recipe Assistant online account for the
-        user to request deletion of.
-      </p>
-
-      <p>
-        Information associated with Google Play purchases is retained and
-        handled by Google according to Google's own legal, accounting and
-        platform requirements.
-      </p>
-    </section>
-
-
-    <section>
-      <h2>14. Children's Privacy</h2>
-
-      <p>
-        Recipe Assistant is a general-purpose recipe application and is not
-        specifically designed to collect personal information from children.
-        Vitali Automation does not knowingly use Recipe Assistant to collect
-        personal information from children for advertising or profiling.
-      </p>
-    </section>
-
-
-    <section>
-      <h2>15. External Websites</h2>
-
-      <p>
-        Recipe Assistant may display links to, search results from, or recipe
-        content originating from third-party websites. Those websites operate
-        independently from Vitali Automation and may have their own privacy
-        policies, cookies and data-processing practices.
-      </p>
-
-      <p>
-        Users should review the privacy information provided by any third-party
-        website they choose to visit.
-      </p>
-    </section>
-
-
-    <section>
-      <h2>16. Changes to this Privacy Policy</h2>
-
-      <p>
-        This Privacy Policy may be updated when Recipe Assistant gains new
-        features, changes the way information is processed, or when legal or
-        Google Play requirements change.
-      </p>
-
-      <p>
-        The latest version will be published on this page with an updated
-        revision date.
-      </p>
-    </section>
-
-
-    <section>
-      <h2>17. Contact</h2>
-
-      <p>
-        Questions about Recipe Assistant privacy or data handling can be sent
-        to:
-      </p>
-
+      <h2>25. Contact</h2>
       <p>
         <strong>Vitali Automation</strong><br>
         Email:
-        <a href="mailto:vitaliautomation@gmail.com">
-          vitaliautomation@gmail.com
-        </a>
+        <a href="mailto:vitaliautomation@gmail.com">vitaliautomation@gmail.com</a>
       </p>
     </section>
 
   </div>
 </main>
-
 
 <footer>
   © 2026 Vitali Automation. All rights reserved.
