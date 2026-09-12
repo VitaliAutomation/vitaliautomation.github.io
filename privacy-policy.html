@@ -115,7 +115,7 @@
 
 <div class="hero">
   <h1>Recipe Assistant Privacy Policy</h1>
-  <p>Last updated: 10 September 2026</p>
+  <p>Last updated: 12 September 2026</p>
 </div>
 
 <main>
@@ -323,18 +323,29 @@
     </section>
 
     <section>
-      <h2>11. Clipboard import, backup and restore</h2>
+      <h2>11. Clipboard, backup and restore</h2>
       <p>
         Recipe Assistant can read text from the system clipboard when the user
-        explicitly chooses a paste or restore action. It can also create a text/JSON
-        recipe backup and copy that backup to the system clipboard at the user's request.
+        explicitly chooses a paste action.
       </p>
       <p>
-        Clipboard backups contain recipe text and related recipe metadata but do not
-        include the bytes of locally stored recipe photos. Once information is copied
-        to the Android system clipboard, it is no longer held only inside Recipe
-        Assistant's private storage. Clipboard access and visibility are then governed
-        by Android and the user's device environment.
+        Normal backups are now created as portable <strong>.rabackup</strong> files.
+        When the user chooses Create backup file, Android's system file picker lets the
+        user choose where the file is saved. The backup can contain the user's recipes,
+        ingredients, cooking steps, favourites, source links and locally stored recipe
+        photos. Built-in sample recipes are not included because the app recreates them.
+      </p>
+      <p>
+        When the user chooses Restore backup file, Android's system file picker lets the
+        user select the backup. Recipe Assistant validates the file before restoring it
+        and copies included recipe photos back into the app's private storage. Existing
+        recipes are kept and exact duplicates are skipped.
+      </p>
+      <p>
+        Vitali Automation does not automatically receive or upload backup files. If the
+        user chooses to save a backup to a third-party or cloud storage location such as
+        Google Drive, that storage provider processes the selected file according to its
+        own terms and privacy policy.
       </p>
     </section>
 
@@ -349,8 +360,9 @@
       </p>
       <p>
         Users who do not want platform backup or device transfer should review their
-        Android/device backup settings. Recipe Assistant also provides a user-initiated
-        clipboard backup method for recipe text.
+        Android/device backup settings. Recipe Assistant's user-created .rabackup files
+        are separate from Android's operating-system backup and are created only when
+        the user explicitly chooses Create backup file.
       </p>
     </section>
 
